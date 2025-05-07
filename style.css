@@ -380,10 +380,20 @@ article .icon {
 }
 
 .project-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  
 }
+
+/* Optional hover effect */
+.project-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+}
+
 
 .project-title {
   margin: 1rem;
